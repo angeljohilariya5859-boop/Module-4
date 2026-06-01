@@ -11,9 +11,17 @@ To write a Python program that calculates the **area of a circle** based on the 
 4. **Execute the program**: Create an object of the class and call the method with the radius value.
 
 ## 🧾 Program
-
-Add code here
-
+class saveetha:
+    def slot(self,radius):
+        area = 3.1416 * radius * radius
+        print(f"Area of circle: {area:.2f}")
+        
+r = float(input())
+obj = saveetha()
+obj.slot(r)
 ## Output
+<img width="632" height="185" alt="image" src="https://github.com/user-attachments/assets/44cb114b-1cc7-4006-8abd-0d20c6cc79df" />
 
 ## Result
+Thus, The Python program that calculates the area of a circle based on the radius provided by the user was executed successfully.
+
